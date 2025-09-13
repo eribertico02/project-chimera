@@ -1,0 +1,30 @@
+# Entorno Virtual de Python
+venv/
+env/
+.venv/
+
+# Archivos de entorno (donde guardaremos las claves de las APIs)
+.env
+.env.local
+.env.production
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE/Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Base de datos local (si usaras SQLite en desarrollo)
+*.db
+*.sqlite3
